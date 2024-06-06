@@ -1,35 +1,50 @@
 # Python-learning--Dictionaries-task
 In this part, I add Python codes that I learnt at course.
-# AI Project Title
+# Dictionaries Task
 
 ## Table of Contents
 - [Introduction](#introduction)
-- [Features](#features)
-- [Installation](#installation)
+- [Setup](#setup)
 - [Usage](#usage)
-- [Dataset](#dataset)
-- [Model](#model)
-- [Results](#results)
+- [Project Structure](#project-structure)
+- [Learning Resources](#learning-resources)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
 
 ## Introduction
-Provide a brief description of your project. Explain the problem you are trying to solve and why it is important.
+Welcome to my AI project! This repository contains code and resources for my AI learning journey. As a beginner, I am experimenting with different AI techniques and models.
 
-## Features
-- List the main features of your project.
-- Example: Prediction, classification, clustering, etc.
+## Setup
+Follow these steps to set up the project on your local machine.
 
-## Installation
-Describe how to install and set up your project. Include any prerequisites.
+### Prerequisites
+Make sure you have Python installed. You can download it from [here](https://www.python.org/downloads/).
+
+### Installation
+Clone this repository and install the necessary dependencies.
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/your-repo-name.git
+your-repo-name/
+│
+├── data/                # Data files
+├── notebooks/           # Jupyter notebooks
+├── src/                 # Source code
+│   ├── __init__.py
+│   └── your_project.py
+├── tests/               # Test cases
+├── requirements.txt     # Dependencies
+└── README.md            # This README file
+
+git clone [https://github.com/yourusername/your-repo-name.git](https://github.com/Fatih-Asgarov)
 
 # Navigate to the project directory
 cd your-repo-name
+
+# (Optional) Create a virtual environment
+python -m venv env
+source env/bin/activate # On Windows use `env\Scripts\activate`
 
 # Install dependencies
 pip install -r requirements.txt

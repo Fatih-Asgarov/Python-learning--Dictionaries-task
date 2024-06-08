@@ -1,5 +1,5 @@
 #1
-'''dict1 = {'a': 10, 'b': 20, 'c': 30}
+dict1 = {'a': 10, 'b': 20, 'c': 30}
 dict2 = {'b': 25, 'c': 35, 'd': 40}
 merged_dict = dict1.copy()
 for key, value in dict2.items():
@@ -7,62 +7,62 @@ for key, value in dict2.items():
         merged_dict[key]+= value
     else:
         merged_dict[key] = value
-        print(merged_dict)'''
+        print(merged_dict)
 
 
 #2
-'''empty_dict = {}
+empty_dict = {}
 print(empty_dict)
-'''
+
 
 #3
-'''about_me = {
+about_me = {
     'name' : 'Fatih',
     'age' : 20,
     'city' : 'Baku'
 }
 for key, value in about_me.items():
-    print(f" key : {key}, value : {value}")'''
+    print(f" key : {key}, value : {value}")
 
 
 
 #4
-'''about_me = {
+about_me = {
     'name' : 'Fatih',
     'age' : 20,
     'city' : 'Baku'
 }
 about_me.pop('age')
-print(about_me)'''
+print(about_me)
 
 #5
-'''unsorted_dict = {
+unsorted_dict = {
     'banana': 3,
     'apple': 5,
     'cherry': 2,
     'date': 4
 }
 sorted_dict = dict(sorted(unsorted_dict.items()))
-print(sorted_dict)'''
+print(sorted_dict)
 
 #6
-'''results_of_students = {
+results_of_students = {
     'Alice': 85,
     'Bob': 90,
 }
 results_of_students.update({"Alice" : 95})
 results_of_students.update({"Charlie" : 60})
-print(results_of_students)'''
+print(results_of_students)
 
 #7
-'''unsorted_dict = {
+unsorted_dict = {
     'banana': 3,
     'apple': 5,
     'cherry': 2,
     'date': 4
 }
 for value in unsorted_dict.values():
-    print(unsorted_dict)'''
+    print(unsorted_dict)
 
 #8
 item_prices = {'apple': 1.00, 'banana': 0.50}

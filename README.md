@@ -1,4 +1,4 @@
-# Python-learning--Dictionaries-task
+# Python-learning--Tasks
 In this part, I add Python codes that I learnt at course.
 # Dictionaries Task
 
